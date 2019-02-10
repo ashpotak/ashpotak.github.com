@@ -68,7 +68,7 @@ h1,h2,h3,h4 {
     background: linear-gradient(
         rgba(47, 43, 80, 0.85),
         rgba(47, 43, 80, 0.85)
-    ), url('./img/bg_footer.png') no-repeat center;
+    ), url('../img/bg_footer.png') no-repeat center;
     background-size: cover;
 }
 
