@@ -26,7 +26,7 @@ h1,h2,h3,h4 {
         rgba(47, 43, 80, 0.85)
     ),
     /* bottom, image */
-    url('./img/header_bg.png') no-repeat center;
+    url('../img/header_bg.png') no-repeat center;
     background-size: cover;
 }
 
@@ -43,7 +43,7 @@ h1,h2,h3,h4 {
     background: linear-gradient(
         rgba(47, 43, 80, 0.85),
         rgba(47, 43, 80, 0.85)
-    ), url('./img/bg_our-story.png') no-repeat center;
+    ), url('../img/bg_our-story.png') no-repeat center;
     background-size: cover;
     height: 550px;
 }
@@ -52,7 +52,7 @@ h1,h2,h3,h4 {
     background: linear-gradient(
         rgba(47, 43, 80, 0.85),
         rgba(47, 43, 80, 0.85)
-    ), url('./img/bg_our-team.png'), no-repeat center;
+    ), url('../img/bg_our-team.png'), no-repeat center;
     background-size: cover;
 }
 
@@ -60,7 +60,7 @@ h1,h2,h3,h4 {
     background: linear-gradient(
         rgba(47, 43, 80, 0.85),
         rgba(47, 43, 80, 0.85)
-    ), url('./img/bg_feedbacks.png') no-repeat center;
+    ), url('../img/bg_feedbacks.png') no-repeat center;
     background-size: cover;
 }
 
