@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(255, 217, 0);
+    line-height: 1.5;
+}
+
+main {
+    background: url("../img/bg-main.jpg") no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 100px 15%;
+}
+
+.search-box {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-box__title {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.search-box__description {
+    font-size: 20px;
+    font-weight: 300;
+    width: 55%;
+}
+
+.input-block {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-block input {
+    height: 45px;
+    width: 200px;
+    border: none;
+    border-bottom: 2px rgb(107, 97, 97) solid;
+    background: transparent;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.input-block button {
+    height: 45px;
+    border: 2px solid rgb(255, 217, 0);
+    background: transparent;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.info-block {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-block__p {
+    width: 50%;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.info-block__value {
+    color: aliceblue;
+}
+
+@media screen and (max-width: 768px){
+    .info-block__p {
+        width: 100%;
+    }
+
+    .search-box__title {
+        font-size: 48px;
+    }
+
+    .search-box__description {
+        font-size: 16px;
+    }
+
+}
